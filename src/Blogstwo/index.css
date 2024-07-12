@@ -1,0 +1,96 @@
+.blogs-section{
+    text-align: center;
+    
+ }
+ .book-section{
+     background-color: #01655E;
+     width: 100%;
+     padding-top: 50%;
+     margin-left: 0.5%;
+     border-radius: 30px;
+     color: white;
+     font-size: 23px;
+     padding-left: 6%;
+     padding-bottom: 6%;
+     padding-right: 6%;
+     margin-top: -50%;
+     text-align: center;
+     
+ }
+ .buttons-one{
+ background-color: #01655E;
+ color: #F97D30;
+ padding: 18px;
+ margin-left: 35.5%; 
+  margin-top: 2%; 
+ border-radius: 50px;
+ width: 150px;
+ font-size: 20px;
+ border-color: #01655E;
+ 
+ }
+ .books{
+     margin-left: 30%;
+     margin-bottom: -5%;
+     width: 200px;
+     position: relative;
+     
+ }
+ 
+ .blog-details{
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ /* .uber-study{
+     margin-left: 18%;
+     margin-bottom: -6%;
+     width: 280px;
+     height: 450px;
+     border-radius: 60px;
+     
+ } */
+ .buttons-two{
+     background-color: #01655E;
+ color: #F97D30;
+ padding: 18px;
+ margin-left: 37.5%;
+ margin-top: 2%;
+ border-radius: 50px;
+ width: 150px;
+ font-size: 20px;
+ }
+ .buttons-three{
+     background-color: #01655E;
+ color: #F97D30;
+ padding: 18px;
+ margin-left: 39.5%;
+ margin-top: 2%;
+ border-radius: 50px;
+ width: 150px;
+ font-size: 20px;
+ }
+ .buttons-one a{
+     text-decoration: none;
+     color: #F97D30;
+     
+     }
+ .blogs-section h1{
+     margin: 0;
+     padding: 0 120px;
+     
+     flex-shrink: 0;
+   }
+   .blogs-section::before,
+   .blogs-section::after {
+     content:'';
+     flex: 1;
+     border-bottom: 8px solid #F97D30; /* Line color and thickness */
+     margin: 0 150px; 
+   }
+   #blogs{
+     font-size: 40px;
+   }
+   #Read{
+     font-size: 20px;
+   }

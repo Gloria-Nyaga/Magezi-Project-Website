@@ -1,0 +1,131 @@
+.line-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333; 
+    margin-top: 20px; 
+  }
+  
+  .line-text h1 {
+    margin: 0;
+    padding: 0 120px; 
+    font-size: 100%;
+    flex-shrink: 0;
+  }
+  
+  .line-text::before,
+  .line-text::after {
+    content: '';
+    flex: 1;
+    border-bottom: 8px solid #F97D30; 
+    margin: 0 150px; 
+  }
+  
+  .subheading {
+    margin: 10px 0 0;
+    font-size: 14px; 
+    color: #555; 
+  
+  }
+  .hr{
+      padding: 20px;
+      
+  }
+  
+   .videoSection {
+      max-width: 1700px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .videoTitle {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .videoTitle h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    
+    .videoTitle h4 {
+      font-size: 18px;
+      color: #666;
+    }
+    
+    .videoGrid {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .topVideos {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    
+    .bottomVideos {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    .videoCard {
+      width: calc(33.33% - 14px);
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    
+    .bottomVideos .videoCard {
+      width: calc(50% - 10px);
+    }
+    
+    .videoPlayer {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+    
+    .videoHeading {
+      padding: 15px;
+      font-size: 14px;
+      text-align: center;
+      font-weight: normal;
+    }
+    
+    .viewAllButton {
+      display: block;
+      margin: 30px auto 0;
+      padding: 10px 30px;
+      background-color: #FF9800;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .viewAllButton:hover {
+      background-color: #F57C00;
+    }
+  
+  
+    h1{
+      font-family:'Libre Baskerville, serif';
+      font-weight: 800px;
+    }
+    
+    @media (max-width: 992px) {
+      .topVideos, .bottomVideos {
+        flex-direction: column;
+      }
+      
+      .videoCard, .bottomVideos .videoCard {
+        width: 100%;
+      }
+    }
